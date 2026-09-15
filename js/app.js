@@ -1,0 +1,5 @@
+document.documentElement.classList.add('js');
+const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('.nav');
+if(toggle&&nav){toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open);toggle.textContent=open?'Close menu':'Menu';});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='Menu';toggle.focus();}});}
+const search=document.querySelector('[data-search]');
+if(search){search.addEventListener('input',()=>{const q=search.value.toLowerCase().trim();let count=0;document.querySelectorAll('[data-sport]').forEach(card=>{const match=card.dataset.sport.toLowerCase().includes(q);card.hidden=!match;if(match)count++;});document.querySelector('[data-count]').textContent=count+' sport'+(count===1?'':'s');document.querySelector('[data-empty]').hidden=count!==0;});}
