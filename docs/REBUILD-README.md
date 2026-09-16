@@ -1,37 +1,39 @@
-# SPYA professional rebuild
+# SPYA refined draft
 
-This package replaces the first scaffold with 16 static HTML pages, shared styling, a mobile menu and a searchable sports directory. It uses no paid services or build dependencies. Python's standard library generates pages.
+A separate, quieter revision of the first redesign: 16 static pages, a shorter homepage, sentence-case typography, expandable program details and fewer repeated calls to action.
 
-## Install on the existing Mac project
+## Preview on a Mac
 
-1. Unzip the package.
-2. Run `.venv/bin/python /path/to/spya-professional/install.py "$HOME/Documents/SPYA Re-design/spya-redesign"` from your original project.
-3. Start `.venv/bin/python -m http.server 8000 --bind 127.0.0.1` and visit http://localhost:8000.
+Open Terminal in the extracted spya-refined folder and run:
 
-The installer backs up files it replaces into a timestamped folder next to the repository. It leaves the repository history, virtual environment and extraction data untouched. It does not push or deploy.
+    python3 -m http.server 8001 --bind 127.0.0.1
 
-## Maintain the website
+Open http://localhost:8001. This is local to the Mac. No public site changes until files are committed and uploaded to GitHub.
 
-- `data/site.json`: edit sport descriptions, contacts, seasons, program summaries and review notes here.
-- `scripts/build_site.py`: shared page templates and general page content.
-- `css/styles.css`: palette, typography, layout and responsive breakpoints.
-- `js/app.js`: mobile menu and sport search.
-- Run `.venv/bin/python scripts/build_site.py` after changing data or templates. Direct edits to generated HTML will be overwritten by this command.
+## Editing
 
-## Assets and availability
+- data/site.json: sport summaries, program descriptions and public email contacts.
+- scripts/build_site.py: shared layout and general page copy.
+- css/styles.css: responsive layout and typography.
+- js/app.js: mobile menu and sports search.
 
-Typography uses Barlow Condensed and DM Sans from Google Fonts, with system font fallbacks. Two existing SPYA image URLs are referenced remotely. Internet access is required to load these images and fonts. SPYA imagery is included by reference for this local redesign review; confirm reuse authorization before official launch. Images have not been copied into the package.
+After editing templates or data, run:
 
-The baseball photograph is sourced from the official Senior Legion page's 2023 championship photo. The lacrosse image is sourced from the original Lacrosse page. If SPYA moves these assets, replace their URLs in `scripts/build_site.py`, or place approved images at `assets/images/baseball.jpg` and `assets/images/lacrosse.jpg`, then rebuild.
+    python3 scripts/build_site.py
+    python3 scripts/validate_site.py
 
-## Content and launch status
+Do not edit generated HTML unless you also change the template. Rebuilding overwrites generated HTML.
 
-This is a redesign preview, not an approved live replacement. Pages have `noindex` metadata. Reviewed source date: September 15, 2026. The calendar links to the official calendar; it does not mirror or fabricate events. Registration directs users to official SPYA pages and does not accept payments or player information. Old and inconsistent deadlines are not presented as open registrations. Published season labels are informational, not a live availability feed.
+## Optional installation into the previous project
 
-All nine sports have local summary pages. Detailed league rules and official documents remain linked to their sources. Older near-empty lacrosse subpages are consolidated. Full board membership is maintained at the official directory rather than duplicated here.
+The included install.py backs up replaced files into a timestamped sibling folder. It accepts an existing website folder containing index.html or a Git repository. Run it only when ready to replace the older local draft. It does not publish, commit or push.
 
-Before official launch: obtain current dates, fees, policies and contacts; approve imagery; check desktop and mobile layouts, keyboard focus and screen-reader navigation; test external registration destinations; confirm financial assistance instructions; remove preview/noindex only when authorized. Map old URLs when migrating the domain. Hosting and domain settings have not been changed.
+## Assets
 
-## Validation performed
+The homepage uses one remote SPYA photograph of the 2023 Senior Legion championship team with a matching caption. Google Fonts supplies DM Sans and Manrope; system fonts are fallbacks. Internet access is needed for remote assets. Confirm SPYA photo permissions before official launch.
 
-Generated all 16 pages and checked local asset/page references, page titles, primary headings and local fragment targets. Browser visual review was blocked in the build environment. Mobile, font rendering, image cropping and screen-reader behavior still require review on the user's Mac. No accessibility-conformance certification is claimed.
+## Content and publishing
+
+Read CONTENT-REVIEW.md for the three review passes and unresolved facts. No general link points back to the old SPYA website. The two financial assistance PDF document links are retained. Stale or inaccessible enrollment forms are not promoted. Registration provides contact routes until current forms are confirmed.
+
+The site remains a preview with noindex metadata. It is not a complete replacement for the operational registration platform or team scheduling system. Publishing to the user's existing GitHub Pages repository is a separate step.

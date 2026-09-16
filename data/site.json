@@ -1,11 +1,193 @@
-{"reviewDate":"September 15, 2026","sports":[
-{"slug":"baseball","name":"Baseball","tag":"Find your place on the diamond.","summary":"From a first swing to competitive league play. A pathway for every stage of development.","season":"Spring · Fall","email":"baseball@spya.org","source":"https://spya.org/baseball/","image":"baseball.jpg","audience":"Introductory through older youth divisions","commitment":"Varies by division","programs":[["T-Ball","An introduction to hitting and fielding with a batting tee and on-field coaching. The published program meets one or two days per week at Cetronia Elementary. Bring a glove; league bats are available."],["Coach Pitch","Coach-pitched batting and supportive instruction. The published program lists three days per week at Lone Lane Park. Bring a glove; league bats are available."],["Grasshopper","A transition toward player pitching, with coaches supporting play under league rules. Published sessions take place three days per week at Parkway Manor Elementary. A glove and bat are required."],["League pathways","Parkland Youth League offers developmental and competitive divisions. Lehigh Valley League, Connie Mack and Senior Legion have specific selection and eligibility requirements."]],"note":"Introductory age cutoffs in the source still refer to 2025. Confirm the current division, schedule and equipment list before enrolling.","links":[["Introductory programs","https://spya.org/baseball/t-ball-prep-minors/"],["Parkland Youth League","https://spya.org/baseball/parkland-youth-league/"],["Lehigh Valley League","https://spya.org/baseball/lehigh-valley-league/"],["Connie Mack","https://spya.org/baseball/connie-mack/"],["Senior Legion","https://spya.org/baseball/senior-legion/"]]},
-{"slug":"basketball","name":"Basketball","tag":"More than a game. A team.","summary":"Build confidence on the court through recreational and competitive opportunities.","season":"Winter · Summer","email":"basketball@spya.org","source":"https://spya.org/basketball/","audience":"Grades vary by program","commitment":"Varies by season","programs":[["Summer recreation","The published 2026 program served children entering grades 3–12, with practices and games at Grange Park. It emphasized games rather than intensive practice."],["Winter basketball","The association overview describes winter recreational and travel opportunities. Ask the commissioner for the upcoming season's grades, evaluations and schedule."]],"note":"The summer registration dates have passed. Upcoming winter dates and fees require confirmation."},
-{"slug":"cheer","name":"Cheer","tag":"Bring the energy. Share the spirit.","summary":"Find friendship, confidence and team spirit through cheerleading.","season":"Fall","email":"cheerleading@spya.org","source":"https://spya.org/cheer/","audience":"Kindergarten–grade 8 in the 2026 listing","commitment":"Confirm practice and event schedule","programs":[["Flags & Junior Pee Wee","The 2026 listing places Kindergarten in Flags and first grade in Junior Pee Wee."],["Pee Wee & Junior Varsity","Second and third grades are listed under Pee Wee; fourth and fifth under Junior Varsity."],["Varsity","The published Varsity group covers sixth through eighth grades. Divisions may change depending on participation."]],"note":"Confirm availability, practice times, fees and the equipment provided with the cheer commissioners."},
-{"slug":"field-hockey","name":"Field Hockey","tag":"Learn together. Play together.","summary":"Recreational field hockey built around learning, balanced teams and friendship.","season":"Spring · Fall","email":"spyafieldhockey@gmail.com","source":"https://spya.org/post-1616/","audience":"Grade-based programs","commitment":"Spring: one or two sessions weekly","programs":[["Fall field hockey","Players undergo an evaluation to help form evenly skilled teams. The evaluation supports team balance; it is not a selection tryout."],["Spring skills & drills","A skills-only season without games. Published groups range from Kindergarten through seventh grade, with one or two practices per week depending on grade."]],"note":"The source references July 2026 evaluation updates. Contact the commissioner for current dates and placement."},
-{"slug":"football","name":"Football","tag":"Commit to your team.","summary":"A division-based football program that develops skills, sportsmanship and teamwork.","season":"Fall","email":"football@spya.org","source":"https://spya.org/football/","audience":"Age and weight eligibility by division","commitment":"Competitive expectations vary by level","programs":[["Football flag program","An introductory flag division within the football program. This is separate from SPYA's NFL Flag program."],["Junior Pee Wee & Pee Wee","Age and weight rules apply to each division. The 2026 source includes changed cutoffs and a special returning-player provision."],["Junior Varsity & Varsity","Competitive divisions with specific age and weight limits. Review the full official rules with the commissioner before selecting a division."]],"note":"Do not choose a division from age alone. Confirm current age, weight and returning-player rules before registration."},
-{"slug":"lacrosse","name":"Lacrosse","tag":"Pick up a stick. Find your team.","summary":"An introduction to the sport and a pathway through boys' and girls' team programs.","season":"Spring","email":"lacrosse@spya.org","source":"https://spya.org/lacrosse/","image":"lacrosse.jpg","audience":"Mini-Scoopers and grade-based teams","commitment":"Team practices typically 2–3 times weekly","programs":[["Mini-Scoopers","A playful introduction listed for ages 3–5. The source describes a weekly seven-week program with sticks and soft balls supplied."],["Boys' & girls' teams","Published grade groups are K–2, 3–4, 5–6 and 7–8. Team structure and competitive brackets vary."],["Equipment & uniforms","Loaner equipment is described as first come, first served, with refundable deposits for boys and girls. Uniforms may require a separate purchase."],["Volunteering","The published program includes a reimbursable family volunteer fee. Ask about eligible roles, hours and the reimbursement process."]],"note":"The source mixes a 2026 season announcement with a 2024 Mini-Scoopers deadline. Confirm all upcoming dates, charges and equipment availability."},
-{"slug":"nfl-flag","name":"NFL Flag","tag":"Fast play. Big team spirit.","summary":"Recreational 5v5 flag football with multiple seasons and age-group divisions.","season":"Fall · Winter · Spring","email":"flagfootball@spya.org","source":"https://spya.org/nfl-flag/","audience":"7u, 9u, 11u, 13u and 15u divisions","commitment":"Published format: 8–10 games plus playoffs","programs":[["5v5 recreation","A community-focused program for a range of skill levels, with five age-group divisions."],["Seasonal play","The source lists fall, winter and spring seasons, plus a skills program between fall and winter."],["Choose the correct program","NFL Flag is separate from the flag division offered by SPYA Football. Age cutoff dates vary by season."]],"note":"As of the September 15, 2026 source review, fall registration was marked closed. Confirm the next registration window with the commissioner."},
-{"slug":"soccer","name":"Soccer","tag":"The game starts with belonging.","summary":"In-house, recreational and travel pathways, with opportunities to build skills.","season":"Spring · Fall · Summer sessions","email":"soccer@spya.org","source":"https://spya.org/soccer/","audience":"Eligibility depends on program","commitment":"Travel described as a two-season commitment","programs":[["In-house & recreation","Explore the official registration information for available divisions and age groups."],["Travel soccer","The association overview describes a two-season commitment with tryouts. Confirm current arrangements and selection dates."],["Summer skills & scrimmages","The published summer sessions combined skill training with small-sided scrimmages. Contact SPYA about future sessions."]],"note":"The source lists the commissioner position as open. Use the soccer contact or board directory for current program questions."},
-{"slug":"softball","name":"Softball","tag":"Build skills. Make memories.","summary":"Youth softball with a local home field and opportunities across age divisions.","season":"Spring · Fall","email":"softball@spya.org","source":"https://spya.org/softball-2/","audience":"Typically 8u, 10u and 12u; 14u subject to interest","commitment":"Confirm weekly schedule","programs":[["Youth divisions","The source lists regular 8u, 10u and 12u teams, with a 14u team possible when interest permits."],["Home field","Practices and home games are listed at Springhouse Middle School, 1200 Springhouse Road, Allentown."],["Late registration","Families are asked to contact the commissioner after the registration window closes; a place depends on available capacity."]],"note":"The page's August 1 registration deadline has passed relative to the source review. Confirm availability directly."}
-]}
+{
+  "reviewDate": "September 15–16, 2026",
+  "sports": [
+    {
+      "slug": "baseball",
+      "name": "Baseball",
+      "summary": "From first swings to league baseball.",
+      "season": "Spring · Fall",
+      "email": "baseball@spya.org",
+      "source": "https://spya.org/baseball/",
+      "programs": [
+        [
+          "T-Ball",
+          "An introduction to hitting and fielding with a batting tee and on-field coaching."
+        ],
+        [
+          "Coach Pitch",
+          "Coach-pitched batting and instruction to help young players develop their skills."
+        ],
+        [
+          "Grasshopper",
+          "A transition toward player pitching, supported by coaches under league rules."
+        ],
+        [
+          "League baseball",
+          "Additional pathways include Parkland Youth League, Lehigh Valley League, Connie Mack and Senior Legion."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "basketball",
+      "name": "Basketball",
+      "summary": "Skill development and teamwork on the court.",
+      "season": "Winter · Summer",
+      "email": "basketball@spya.org",
+      "source": "https://spya.org/basketball/",
+      "programs": [
+        [
+          "Recreational basketball",
+          "Team play and opportunities to develop basketball skills."
+        ],
+        [
+          "Travel basketball",
+          "A competitive pathway described in the association’s program overview. Contact the commissioner about selection and eligibility."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "cheer",
+      "name": "Cheer",
+      "summary": "Team spirit through cheerleading.",
+      "season": "Fall",
+      "email": "cheerleading@spya.org",
+      "source": "https://spya.org/cheer/",
+      "programs": [
+        [
+          "Cheerleading",
+          "Grade-based cheer groups support participation and team spirit."
+        ],
+        [
+          "Team placement",
+          "The program includes Flags, Junior Pee Wee, Pee Wee, Junior Varsity and Varsity groups. Placement depends on the season’s requirements and participation."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "field-hockey",
+      "name": "Field Hockey",
+      "summary": "Recreational play and skill development.",
+      "season": "Spring · Fall",
+      "email": "spyafieldhockey@gmail.com",
+      "source": "https://spya.org/post-1616/",
+      "programs": [
+        [
+          "Fall field hockey",
+          "A recreational program with evaluations to help create evenly matched teams."
+        ],
+        [
+          "Spring skills and drills",
+          "Skill development sessions without games."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "football",
+      "name": "Football",
+      "summary": "Flag and tackle football programs.",
+      "season": "Fall",
+      "email": "football@spya.org",
+      "source": "https://spya.org/football/",
+      "programs": [
+        [
+          "Flag football",
+          "An introductory flag division within the football program, separate from NFL Flag."
+        ],
+        [
+          "Tackle football",
+          "Junior Pee Wee, Pee Wee, Junior Varsity and Varsity divisions have specific age and weight requirements."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "lacrosse",
+      "name": "Lacrosse",
+      "summary": "Introductory and team lacrosse programs.",
+      "season": "Spring",
+      "email": "lacrosse@spya.org",
+      "source": "https://spya.org/lacrosse/",
+      "programs": [
+        [
+          "Mini-Scoopers",
+          "An introductory program that teaches lacrosse basics through play."
+        ],
+        [
+          "Boys’ and girls’ lacrosse",
+          "Grade-based team programs with age-appropriate skill development."
+        ],
+        [
+          "Equipment",
+          "Ask about loan equipment, required personal equipment and uniform purchases before registering."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "nfl-flag",
+      "name": "NFL Flag",
+      "summary": "Recreational 5v5 flag football.",
+      "season": "Fall · Winter · Spring",
+      "email": "flagfootball@spya.org",
+      "source": "https://spya.org/nfl-flag/",
+      "programs": [
+        [
+          "Recreational 5v5",
+          "A community-focused flag football program for a range of skill levels."
+        ],
+        [
+          "Age-group divisions",
+          "The program lists 7U, 9U, 11U, 13U and 15U divisions. Eligibility cutoffs vary by season."
+        ],
+        [
+          "Choose the right program",
+          "NFL Flag is separate from the flag division within SPYA Football."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "soccer",
+      "name": "Soccer",
+      "summary": "In-house, recreational and travel soccer.",
+      "season": "Spring · Fall · Summer sessions",
+      "email": "soccer@spya.org",
+      "source": "https://spya.org/soccer/",
+      "programs": [
+        [
+          "In-house and recreational soccer",
+          "Opportunities to develop skills and enjoy team play."
+        ],
+        [
+          "Travel soccer",
+          "A separate pathway with tryouts and a season commitment. Ask about current requirements."
+        ]
+      ],
+      "registrationForms": []
+    },
+    {
+      "slug": "softball",
+      "name": "Softball",
+      "summary": "Youth softball and team development.",
+      "season": "Spring · Fall",
+      "email": "softball@spya.org",
+      "source": "https://spya.org/softball-2/",
+      "programs": [
+        [
+          "Youth softball",
+          "The program typically fields 8U, 10U and 12U teams. A 14U team depends on interest."
+        ],
+        [
+          "Playing location",
+          "Practices and home games are held at Springhouse Middle School, 1200 Springhouse Road, Allentown."
+        ]
+      ],
+      "registrationForms": []
+    }
+  ],
+  "contentPolicy": "Publish corroborated program descriptions and contacts. Withhold dates, fees, live availability and disputed policy wording until SPYA confirms them."
+}
