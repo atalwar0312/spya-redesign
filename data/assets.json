@@ -1,0 +1,97 @@
+{
+  "logo": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2018/08/SPYA-logo.png",
+    "local": "assets/images/logo.png",
+    "alt": "South Parkland Youth Association"
+  },
+  "raffle": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/raffle-683x1024.png",
+    "local": "assets/images/raffle.png",
+    "alt": "SPYA Eagles raffle flyer"
+  },
+  "legion": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2023/08/358619442_231454846479417_3815966003868382360_n.jpg",
+    "local": "assets/images/legion.jpg",
+    "alt": "2023 Senior Legion champions"
+  },
+  "softball-map": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2024/05/SPYA-Softball-at-Springhouse-225x300.jpg",
+    "local": "assets/images/softball-map.jpg",
+    "alt": "SPYA softball field location"
+  },
+  "lacrosse-champs": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2022/03/SPYA-7-8-Box-Champs-2022-Large.jpg",
+    "local": "assets/images/lacrosse-champs.jpg",
+    "alt": "2022 lacrosse 7/8 box champions"
+  },
+  "flag-1": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/IMG_8811.jpeg",
+    "local": "assets/images/flag-1.jpeg",
+    "alt": "Spring 2026 NFL Flag championship team"
+  },
+  "flag-2": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/IMG_8812.jpeg",
+    "local": "assets/images/flag-2.jpeg",
+    "alt": "Spring 2026 NFL Flag championship team"
+  },
+  "flag-3": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/IMG_8813.jpeg",
+    "local": "assets/images/flag-3.jpeg",
+    "alt": "Spring 2026 NFL Flag championship team"
+  },
+  "flag-4": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/IMG_8814.jpeg",
+    "local": "assets/images/flag-4.jpeg",
+    "alt": "Spring 2026 NFL Flag championship team"
+  },
+  "flag-5": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/IMG_8815.jpeg",
+    "local": "assets/images/flag-5.jpeg",
+    "alt": "Spring 2026 NFL Flag championship team"
+  },
+  "flag-6": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/IMG_8816.jpeg",
+    "local": "assets/images/flag-6.jpeg",
+    "alt": "Spring 2026 NFL Flag championship team"
+  },
+  "flag-7": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2026/07/IMG_8817.jpeg",
+    "local": "assets/images/flag-7.jpeg",
+    "alt": "Spring 2026 NFL Flag championship team"
+  },
+  "sponsor-1": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2024/03/Peoples-1024x569.png",
+    "local": "assets/images/sponsor-1.png",
+    "alt": "Peoples"
+  },
+  "sponsor-2": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2024/04/ArborLogo_new-1024x366.jpg",
+    "local": "assets/images/sponsor-2.jpg",
+    "alt": "Arbor"
+  },
+  "sponsor-3": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2024/04/Novus-Surgical_Silver-1024x436.png",
+    "local": "assets/images/sponsor-3.png",
+    "alt": "Novus Surgical"
+  },
+  "sponsor-4": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2025/04/plantique.png",
+    "local": "assets/images/sponsor-4.png",
+    "alt": "Plantique"
+  },
+  "sponsor-5": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2025/05/walsh.png",
+    "local": "assets/images/sponsor-5.png",
+    "alt": "Walsh"
+  },
+  "sponsor-6": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2024/04/Screenshot-2024-04-15-095912-300x152.png",
+    "local": "assets/images/sponsor-6.png",
+    "alt": "Baseball program sponsor logo published by SPYA"
+  },
+  "sponsor-7": {
+    "url": "https://spya.org/wp-content/uploads/sites/1365/2024/03/Christmans-1-300x246.png",
+    "local": "assets/images/sponsor-7.png",
+    "alt": "Christman\u2019s"
+  }
+}

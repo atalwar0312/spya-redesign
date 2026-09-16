@@ -1,5 +1,5 @@
 {
-  "reviewDate": "September 15–16, 2026",
+  "reviewDate": "September 16, 2026",
   "sports": [
     {
       "slug": "baseball",
@@ -11,19 +11,35 @@
       "programs": [
         [
           "T-Ball",
-          "An introduction to hitting and fielding with a batting tee and on-field coaching."
+          "An introduction to hitting and fielding using a batting tee, with coaches on the field to teach the fundamentals. Players need a glove; the program supplies bats. Confirm current age eligibility with the commissioner."
         ],
         [
           "Coach Pitch",
-          "Coach-pitched batting and instruction to help young players develop their skills."
+          "Coach-pitched baseball builds hitting, fielding, and teamwork. Players need their own glove. Ask about the current practice location and schedule."
         ],
         [
           "Grasshopper",
-          "A transition toward player pitching, supported by coaches under league rules."
+          "A transition toward player pitching, with coach support under league rules. Players need their own glove and bat."
         ],
         [
-          "League baseball",
-          "Additional pathways include Parkland Youth League, Lehigh Valley League, Connie Mack and Senior Legion."
+          "Parkland Youth League",
+          "PYL offers developmental National League and competitive American League teams. Divisions include Biddy, Midget, Knee-Hi, and Majors. American League selection requires tryouts."
+        ],
+        [
+          "Lehigh Valley League",
+          "A competitive spring pathway selected through tryouts. Players are expected to prioritize their SPYA team; residency requirements apply."
+        ],
+        [
+          "Junior and Senior Connie Mack",
+          "Junior and Senior Connie Mack provide additional competitive baseball pathways. Ask about current age eligibility, tryouts, roster selection, and summer commitments."
+        ],
+        [
+          "Senior Legion",
+          "Senior Legion offers an older-player pathway through American Legion Baseball. Confirm current eligibility and selection arrangements before registering."
+        ],
+        [
+          "Tryouts, Residency, and Waitlists",
+          "Selection and residency rules differ by league. Tournament players should confirm the applicable eligibility rules with the commissioner. When a division reaches capacity, a waitlist may be maintained; additional teams depend on player numbers and a head coach."
         ]
       ],
       "registrationForms": []
@@ -37,12 +53,12 @@
       "source": "https://spya.org/basketball/",
       "programs": [
         [
-          "Recreational basketball",
-          "Team play and opportunities to develop basketball skills."
+          "Recreational Basketball",
+          "An opportunity to develop skills and enjoy team play. Ask the commissioner about the next available season and age groups."
         ],
         [
-          "Travel basketball",
-          "A competitive pathway described in the association’s program overview. Contact the commissioner about selection and eligibility."
+          "Travel Basketball",
+          "A competitive pathway described in SPYA’s association overview. Confirm current selection requirements and team availability."
         ]
       ],
       "registrationForms": []
@@ -57,11 +73,15 @@
       "programs": [
         [
           "Cheerleading",
-          "Grade-based cheer groups support participation and team spirit."
+          "Cheer supports team spirit and participation. The published 2026 program covers kindergarten through eighth grade."
         ],
         [
-          "Team placement",
-          "The program includes Flags, Junior Pee Wee, Pee Wee, Junior Varsity and Varsity groups. Placement depends on the season’s requirements and participation."
+          "2026 Team Groups",
+          "Flags: kindergarten; Junior Pee Wee: first grade; Pee Wee: second and third grades; Junior Varsity: fourth and fifth grades; Varsity: sixth through eighth grades. Groups are subject to change based on participation."
+        ],
+        [
+          "Season Equipment",
+          "The 2026 program says cheerleaders will receive the equipment they need for the season. Confirm fittings, distribution, and any personal items with the program."
         ]
       ],
       "registrationForms": []
@@ -75,12 +95,16 @@
       "source": "https://spya.org/post-1616/",
       "programs": [
         [
-          "Fall field hockey",
-          "A recreational program with evaluations to help create evenly matched teams."
+          "Fall Field Hockey",
+          "A recreational program in the Lehigh Valley Youth Field Hockey League. Mandatory evaluations help form balanced teams; they are not selection tryouts."
         ],
         [
-          "Spring skills and drills",
-          "Skill development sessions without games."
+          "Spring Skills and Drills",
+          "A skills-focused season without games. Contact the commissioner for the next schedule and grade groups."
+        ],
+        [
+          "Program Philosophy",
+          "Learn the game, build skills, make friends, and compete in a safe, enjoyable environment. The program relies on volunteers."
         ]
       ],
       "registrationForms": []
@@ -94,12 +118,24 @@
       "source": "https://spya.org/football/",
       "programs": [
         [
-          "Flag football",
-          "An introductory flag division within the football program, separate from NFL Flag."
+          "Flag Football",
+          "The introductory flag division within SPYA Football is separate from NFL Flag. Confirm the correct program before choosing a form."
         ],
         [
-          "Tackle football",
-          "Junior Pee Wee, Pee Wee, Junior Varsity and Varsity divisions have specific age and weight requirements."
+          "Tackle Football",
+          "Junior Pee Wee, Pee Wee, Junior Varsity, and Varsity divisions combine football skills, safety, teamwork, and sportsmanship. Pee Wee through Varsity compete in a competitive league."
+        ],
+        [
+          "2026 Age and Weight Rules",
+          "Eligibility uses January 1 age cutoffs. Junior Pee Wee players may not have turned 8 before January 1; Pee Wee players may not have turned 9; Junior Varsity players may not have turned 11; Varsity players may not have turned 13. Anyone turning 14 during 2026 is ineligible. Confirm placement with the commissioner."
+        ],
+        [
+          "2026 Weight Limits",
+          "Published skill-player/lineman limits are: Junior Pee Wee, 80/140 lb; Pee Wee, 100/140 lb; Junior Varsity, 120/140 lb; Varsity, 140/160 lb. There is no older/lighter Junior Varsity option."
+        ],
+        [
+          "2026 Pee Wee Exception",
+          "A returning 2025 player born August 1–December 31, 2016 may choose Pee Wee for the same organization in 2026. This affects future Junior Varsity eligibility, and double rostering at Junior Varsity is not permitted under this exception. Discuss the complete rules with the commissioner."
         ]
       ],
       "registrationForms": []
@@ -114,15 +150,23 @@
       "programs": [
         [
           "Mini-Scoopers",
-          "An introductory program that teaches lacrosse basics through play."
+          "An introduction to lacrosse through play, with sticks and soft balls provided. Ask about the next session, current ages, and capacity."
         ],
         [
-          "Boys’ and girls’ lacrosse",
-          "Grade-based team programs with age-appropriate skill development."
+          "Boys’ Lacrosse",
+          "Grade-based programs run from kindergarten through eighth grade. Younger players focus on development; older age groups may have competitive and developmental brackets. Team availability varies by season."
         ],
         [
-          "Equipment",
-          "Ask about loan equipment, required personal equipment and uniform purchases before registering."
+          "Girls’ Lacrosse",
+          "Grade-based lacrosse from kindergarten through eighth grade. Confirm the next season’s team groups and availability."
+        ],
+        [
+          "Uniforms and Equipment",
+          "The program uses Parkland lacrosse uniforms. Ask about required uniform purchases, replacement pieces, and loan equipment before registering. Loan equipment is subject to availability and may require a refundable deposit."
+        ],
+        [
+          "Additional Training",
+          "SPYA has offered box lacrosse, skills sessions, and clinics. The older announcements do not establish a current schedule; contact the program about upcoming opportunities."
         ]
       ],
       "registrationForms": []
@@ -137,15 +181,19 @@
       "programs": [
         [
           "Recreational 5v5",
-          "A community-focused flag football program for a range of skill levels."
+          "A recreational flag football program for a range of skill levels, with fall, winter, and spring seasons. The program also describes skills training between fall and winter."
         ],
         [
-          "Age-group divisions",
-          "The program lists 7U, 9U, 11U, 13U and 15U divisions. Eligibility cutoffs vary by season."
+          "Age-Group Divisions",
+          "Divisions are 7U, 9U, 11U, 13U, and 15U. The upper-age cutoff dates are July 1 for fall, December 1 for winter, and April 1 for spring. Confirm eligibility for the intended season."
         ],
         [
-          "Choose the right program",
-          "NFL Flag is separate from the flag division within SPYA Football."
+          "Game Format",
+          "The published program describes 8–10 games per season plus at least one playoff game. Exact schedules are supplied by the program."
+        ],
+        [
+          "Choose the Correct Program",
+          "NFL Flag is separate from the flag division within SPYA Football. The two programs have different registration forms."
         ]
       ],
       "registrationForms": []
@@ -159,12 +207,16 @@
       "source": "https://spya.org/soccer/",
       "programs": [
         [
-          "In-house and recreational soccer",
-          "Opportunities to develop skills and enjoy team play."
+          "In-House and Recreational Soccer",
+          "Team play and skill development for young soccer players. Ask about the current age groups and next available season."
         ],
         [
-          "Travel soccer",
-          "A separate pathway with tryouts and a season commitment. Ask about current requirements."
+          "Travel Soccer",
+          "A separate pathway with tryouts and a season commitment. Confirm current selection dates and requirements."
+        ],
+        [
+          "Skills and Scrimmages",
+          "SPYA has offered summer skills training and small-sided scrimmages. The 2026 summer sessions have ended; contact the program about future sessions."
         ]
       ],
       "registrationForms": []
@@ -178,16 +230,20 @@
       "source": "https://spya.org/softball-2/",
       "programs": [
         [
-          "Youth softball",
-          "The program typically fields 8U, 10U and 12U teams. A 14U team depends on interest."
+          "Youth Softball",
+          "SPYA participates in the Eastern Pennsylvania Girls Softball League. Teams typically include 8U, 10U, and 12U, with 14U dependent on interest."
         ],
         [
-          "Playing location",
-          "Practices and home games are held at Springhouse Middle School, 1200 Springhouse Road, Allentown."
+          "Playing Location",
+          "Practices and home games take place at Springhouse Middle School, 1200 Springhouse Road, Allentown. Confirm the field and time in team communications."
+        ],
+        [
+          "Late Registration",
+          "The program asks families seeking a place after the registration window to email the commissioner. Late placement depends on available space."
         ]
       ],
       "registrationForms": []
     }
   ],
-  "contentPolicy": "Publish corroborated program descriptions and contacts. Withhold dates, fees, live availability and disputed policy wording until SPYA confirms them."
+  "contentPolicy": "Source review completed against the supplied September 15 inventory and live pages where accessible. Form acceptance is not guaranteed. Dated or conflicting details require commissioner confirmation."
 }

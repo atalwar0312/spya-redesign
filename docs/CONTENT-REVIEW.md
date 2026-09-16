@@ -1,64 +1,63 @@
-# Content and editorial review — September 15–16, 2026
+# Content Review — September 16, 2026
 
-This is an editorial source review, not confirmation from SPYA officers. Reading a statement repeatedly is not independent verification. Current seasonal data that could not be established has been withheld.
+## Review Scope
 
-## Pass 1: Compare statements against SPYA sources
+The provided September 15, 2026 extraction contains 35 source pages. It was compared with the previous refined draft to restore useful omitted content. Live SPYA Home, NFL Flag, and Calendar pages were also retrieved during this revision. A prior form check in this session supplied the closed dates below. This is a three-pass review (source reconciliation, currency/uncertainty review, and structural/editorial validation), not three independent confirmations of every fact.
 
-Reviewed Home, About Us, Board, Registration, the nine sport pages and introductory baseball details. Reference evidence is retained in data/site.json and in the user's original extraction. Public copy now contains brief program descriptions, the association mission and location, public contact addresses, and practical questions for families. Full older page text is not reproduced.
+The supplied source inventory remains the evidence for detailed program descriptions. SPYA's own pages contain conflicting dates, legacy information, and broken or malformed links. An accessible page is not proof that a registration accepts entries. Claims that cannot be established are marked or withheld.
 
-| Item | Source evidence | Publication decision |
-| --- | --- | --- |
-| Association name, nonprofit/volunteer character, mission | https://spya.org/about-us/ | Paraphrased without expanding the claims. |
-| Grange Road address | https://spya.org/board/ and page footers | Retained as association address, not every team's playing location. |
-| Sport email addresses | Board page and individual sport pages | Retained. Mailbox delivery was not tested. Soccer contact is from the Board page. |
-| Baseball divisions | Baseball and introductory program pages | Program types retained; old age cutoffs and weekly schedule omitted. |
-| Basketball pathways | About Us and Basketball | Basic recreation/travel descriptions retained; expired summer deadlines omitted. |
-| Cheer divisions | Cheer | Named divisions retained; grade cutoffs and season charges omitted. |
-| Field Hockey | Current /post-1616/ page | Recreational balance and spring skills format retained. Old evaluation announcements omitted. |
-| Football | Football | Division names and need to check age/weight eligibility retained. Detailed age/weight limits omitted. |
-| Lacrosse | Lacrosse | Basic introductory/team pathways retained. 2024 deadline, 2026 charges and roster capacities omitted. |
-| NFL Flag | NFL Flag | 5v5 format, division names and separate-program distinction retained. Registration status not presented as live. |
-| Soccer | Soccer and About Us | Basic program pathways retained. No commissioner name or live enrollment claim. |
-| Softball | Softball | Team levels and Springhouse location retained. Stale registration deadline omitted. |
-| Financial assistance | Registration and previously reviewed September 2026 policy | General availability subject to eligibility/funding, contact and document links retained. No promises of approval or processing time. |
+## Restored Content
 
-## Pass 2: Cross-page and time-sensitive checks
+- Original SPYA logo, original photographs, and original raffle flyer.
+- One homepage Eagles raffle feature; TeamSnap entry URL 526605 as linked on SPYA Home and NFL Flag. Flyer details previously inspected in this session: two winners, four tickets each, Section 107/Row 17, November 8 drawing. The 2026 event year comes from the TeamSnap event title and current flyer context. Do not infer an entry deadline or guarantee entry availability.
+- All nine sport destinations and the full named baseball progression.
+- Football division links, current published 2026 eligibility details, and league resources.
+- Financial assistance policy/application, soccer code of conduct, and association bylaws.
+- Calendar embed exactly as linked by SPYA; actual event completeness is not guaranteed.
+- Spring 2026 NFL Flag championship photos; older baseball/lacrosse achievements explicitly dated.
+- Baseball sponsor images in a collapsed program section, described as businesses recognized on the source page rather than newly verified sponsorship agreements.
+- Association role contacts, volunteering, fieldhouse context, and softball field map.
 
-- Soccer form https://go.teamsnap.com/forms/524686 redirected to an inactive page stating registration closed September 12, 2026. It is not a public sign-up button in this revision.
-- NFL Flag sport page says fall registration is closed while the central page keeps a registration link. Neither is treated as a live availability feed.
-- Other TeamSnap destinations could not all be inspected reliably. Registration now directs families to program contacts rather than unverified forms.
-- About Us mentions PayPal; Registration mentions TeamSnap and card/bank payments. Only the corroborated TeamSnap registration platform is named. Payment-method claims are omitted.
-- Refund wording differs between bylaws and sport pages. No unified refund rule is invented or published; families are directed to the commissioner.
-- Lacrosse contains a 2024 deadline in 2026 copy. No date or fee from that text is marketed as current.
-- Introductory baseball cutoffs reference 2025. No current age cutoff is inferred from those dates.
-- Board and Basketball spell a person's surname differently. Personal officer names are not repeated; role email addresses are used.
-- Calendar events were not captured or verified. No event dates are invented. The schedules page offers the program-contact route.
+## Registration Status
 
-## Pass 3: Editorial and site checks
+- NFL Flag form 516729: prior TeamSnap check returned inactive, closed September 3, 2026; live NFL Flag source still says fall registration is closed.
+- Soccer form 524686: prior TeamSnap check returned inactive, closed September 12, 2026.
+- Softball form 524522: prior TeamSnap check returned inactive, closed September 1, 2026. Source page's August 1 statement conflicts; form status takes precedence for that form.
+- Cheer 521215: source-linked form; acceptance remains unconfirmed.
+- Field Hockey 522311: source-linked fall form; current acceptance not confirmed.
+- Football forms 523764, 523762, 523742, 523761, 523741: linked on the supplied current football page; current acceptance not confirmed. Division selection is required; do not substitute one form for all divisions.
+- Baseball, Basketball, Lacrosse: no current accepting window established. Use commissioner contact instead of stale season signup links.
 
-- Sentence case for headings, labels and buttons; proper names retain capitals.
-- SPYA, NFL Flag, TeamSnap and named divisions use consistent spelling.
-- Age-division abbreviations consistently use 8U, 10U, etc.
-- Full-sentence descriptions end with punctuation. Navigation labels do not.
-- No all-uppercase styling overrides are applied.
-- Removed links to old SPYA HTML pages from all generated pages. Two PDF document links and one image reference remain as functional assets, not promotional website referrals.
-- No fees, deadlines or live registration availability claims in generated pages.
-- Local pages, assets, heading structure and fragment targets checked by scripts/validate_site.py.
+Direct checks of some TeamSnap endpoints failed in the research environment. No checkout, form submission, or authenticated availability check was performed. The redesigned site labels this uncertainty and does not use “Open” or “Register Now.”
 
-## Design references
+## Removed or Held
 
-AYSO: https://ayso.org/ — program, volunteer and family entry points; its public homepage was visually inspected.
-Little League: https://www.littleleague.org/ — task-based navigation and dedicated resources; page structure reviewed through web extraction.
-YMCA: https://www.ymca.org/what-we-do/healthy-living/sports-recreation — grouped content and concise introductions; extracted content reviewed, visual access blocked by browser verification.
+- Expired summer 2026 basketball and soccer signup promotions.
+- Spring 2026 lacrosse enrollment counts, fees, practice dates, and the contradictory March 2024 deadline.
+- 2021–2022 clinics, box lacrosse enrollment, COVID restrictions, and dated skills schedules.
+- 2025 in-house baseball cutoff dates, legacy fees, and unconfirmed current practice assignments.
+- Old general PayPal instructions; current source describes TeamSnap.
+- Old field-hockey page superseded by /post-1616/.
+- Empty legacy lacrosse subpages; their meaningful program categories are consolidated.
+- Commissioner personal names where stale or inconsistent; role mailboxes are used instead. Soccer vacancy is explicitly attributed to the board page and requires checking before applying.
+- Refund rules are not flattened into one universal promise: baseball and football exceptions differ. Detailed decisions should come from commissioners and current registration terms.
+- Current-only claims based solely on soccer promotional images were not transcribed without verification. Soccer's code of conduct is retained. Travel tryout flyer dates require another check before being advertised.
+- Malformed softball league URL from extraction is not published as a working rules link; league affiliation remains in program content.
 
-No copy, photography, branding or membership claims from these organizations are used in SPYA's design. This is an original layout informed by their content organization, not a pixel-for-pixel reproduction.
+## Asset Handling
 
-## Remaining verification
+All visual assets reference actual URLs supplied by the SPYA extraction. No synthetic SPYA mark, stock athlete photographs, or fabricated sponsor artwork is used. The publish script attempts to download assets on the Mac and validates PNG/JPEG/GIF signatures. If unavailable, it retains the original image URL. Association photographs are not represented as newly taken; championship years remain visible.
 
-SPYA must supply/confirm current season dates, prices, capacities, eligibility exceptions, refund policy, image permissions and working registration destinations before those details can be added. Visual browser QA was blocked in this environment. Review the new files on desktop and phone before replacing the public draft. Website is still labeled Preview and uses noindex metadata.
+## Validation
 
-## Registration update before GitHub upload
+17 generated pages pass local file/anchor checks, reachable-content checks, one-H1/title checks, image alt-attribute checks, heading capitalization checks, and duplicate-anchor-destination checks. No repeated anchor destinations occur within an individual page. The calendar's embedded view has a direct external fallback for accessibility.
 
-On September 16, following the source Registration page buttons returned live TeamSnap inactive notices for NFL Flag (September 3), Soccer (September 12) and Softball (September 1). These three closures are now displayed. Cheer returned a cached 2026 Cheer sign-in page: its button is labeled “View registration form” and availability remains explicitly unconfirmed. Other programs retain commissioner contact routes. This supersedes the earlier blanket omission of seasonal dates for these three verified closure dates only.
+Mobile styles, semantic navigation, skip links, visible keyboard focus, native disclosure controls, search status announcements, and reduced-motion support are implemented. JavaScript and shell syntax checks pass. Browser visual QA and a comprehensive assistive-technology audit remain outstanding; this report does not certify universal accessibility, external availability, or perfect accuracy.
 
-Evidence: https://go.teamsnap.com/forms/516729/inactive ; https://go.teamsnap.com/forms/524686/inactive ; https://go.teamsnap.com/forms/524522/inactive ; https://go.teamsnap.com/forms/521215
+## Sources
+
+- https://spya.org/
+- https://spya.org/nfl-flag/
+- https://spya.org/calendar/
+- The user's supplied `spya_content(1).json`, extracted September 15, 2026, with individual source URLs for each program.
+- TeamSnap form checks recorded in this working session; results can change after review.
