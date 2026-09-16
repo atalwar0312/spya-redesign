@@ -4,6 +4,7 @@ from html import escape as e
 from datetime import datetime
 from zoneinfo import ZoneInfo
 import json
+import hashlib
 R = Path(__file__).resolve().parents[1]
 D = json.loads((R/'data/site.json').read_text()); S = D['sports']
 A = json.loads((R/'data/assets.json').read_text())
@@ -28,7 +29,7 @@ def intro(label,title,text):return f'<section class="page-intro container"><p cl
 def shell(title,body,active=''):
     items=[('sports','Sports'),('registration','Registration'),('resources','Families'),('community','Community'),('about','About')]
     nav=''.join(f'<a href="{k}.html"'+(' aria-current="page"' if active==k else '')+f'>{t}</a>' for k,t in items)
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | SPYA</title><meta name="description" content="{e(title)} — South Parkland Youth Association sports, family resources and community in Allentown, Pennsylvania."><link rel="icon" href="{e(asset('logo'))}"><link rel="stylesheet" href="css/styles.css"><script src="js/app.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header><div class="container header-inner"><a class="brand" href="index.html" aria-label="SPYA Home">{picture('logo','',eager=True)}<span>South Parkland<br>Youth Association</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav id="primary-nav" class="nav" aria-label="Main Navigation">{nav}</nav></div></header><main id="main">{body}</main><footer><div class="container footer-inner"><p><strong>SPYA</strong><br>360 Grange Road · Allentown, PA 18069</p><p>Teamwork. Sportsmanship. Community.</p></div></footer></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} | SPYA</title><meta name="description" content="{e(title)} — South Parkland Youth Association sports, family resources and community in Allentown, Pennsylvania."><link rel="icon" href="{e(asset('logo'))}"><link rel="stylesheet" href="css/styles.css?v={hashlib.sha256((R / 'css/styles.css').read_bytes()).hexdigest()[:12]}"><script src="js/app.js" defer></script></head><body><a class="skip" href="#main">Skip to content</a><header><div class="container header-inner"><a class="brand" href="index.html" aria-label="SPYA Home">{picture('logo','',eager=True)}<span>South Parkland<br>Youth Association</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button><nav id="primary-nav" class="nav" aria-label="Main Navigation">{nav}</nav></div></header><main id="main">{body}</main><footer><div class="container footer-inner"><p><strong>SPYA</strong><br>360 Grange Road · Allentown, PA 18069</p><p>Teamwork. Sportsmanship. Community.</p></div></footer></body></html>'''
 def write(name,body): (R/name).write_text(body,encoding='utf-8')
 # Only one promotion and one entry link; no duplicate on a program page.
 raffle=''
