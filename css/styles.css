@@ -5,3 +5,54 @@
 @media(max-width:440px){.brand span{font-size:.65rem}.sports-grid,.photo-grid,.contact-grid,.registration-row{grid-template-columns:1fr}.registration-row>div:last-child{grid-column:auto}.sport-card{min-height:180px}.toolbar{flex-direction:column;align-items:start;gap:12px}.toolbar label,.toolbar input{width:100%}.contact-panel{padding:25px}.page-intro h1{font-size:2.7rem}.sponsor-grid{grid-template-columns:repeat(2,1fr)}.feature-content h2{font-size:2rem}.calendar-frame{height:550px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{header,footer,.skip,.menu-toggle{display:none}body{background:white;color:black}.container{width:100%}.section{padding-bottom:25px}}
+
+/* October 2026 visual refresh: progressive enhancement on existing layout */
+:root{--ink:#1c2521;--red:#b0162e;--paper:#fdfdfa;--soft:#f1f3ee;--line:#e0e5dd}
+h1,h2{font-family:Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:-.055em}
+h3{letter-spacing:-.025em}
+header{background:rgba(253,253,250,.97);backdrop-filter:blur(14px)}
+.header-inner{min-height:90px}.brand img{height:66px;width:64px}
+.nav a[href="registration.html"]{color:var(--red);border:1px solid var(--red);padding:10px 18px;border-radius:999px}
+.nav a[href="registration.html"]:hover{color:white;background:var(--red)}
+.home-hero{grid-template-columns:1fr 1.05fr;gap:5vw;padding-block:88px}
+.hero-copy h1{font-size:clamp(3.2rem,6.2vw,6.5rem);line-height:1.03}
+.hero-photo img{aspect-ratio:1.15;object-fit:cover;border-radius:16px 110px 16px 16px}
+.hero-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.button{border-radius:999px;font-weight:700;transition:transform .2s ease,background .2s ease}
+.button:hover{transform:translateY(-2px)}
+.secondary-button{background:transparent;border-color:#a9b1a8;color:var(--ink)}
+.secondary-button:hover{background:var(--ink);border-color:var(--ink);color:white}
+.hero-stats{display:flex;gap:34px;margin-top:38px;padding-top:22px;border-top:1px solid var(--line);font-size:.75rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.hero-stats strong{display:block;color:var(--ink);font-size:1.65rem;line-height:1.2}
+.winter-banner{background:#1d2923;padding:32px 0;color:white}
+.winter-banner-inner{display:flex;justify-content:space-between;align-items:center;gap:35px}
+.winter-banner .eyebrow{color:#ffb5bf;margin-bottom:7px;text-transform:uppercase;letter-spacing:.12em}
+.winter-banner h2{font-size:clamp(1.7rem,3vw,2.6rem);margin:0 0 8px}
+.winter-banner p{color:#d6ded8;margin:0;max-width:680px}
+.winter-banner .button{background:#fff;color:#17221d;border-color:#fff;white-space:nowrap}
+.feature{margin-top:65px;border:1px solid var(--line);border-radius:18px;padding:35px;background:#fff}
+.quick-start{padding-block:30px 95px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:40px;margin-bottom:30px}.section-head h2{max-width:620px}.section-head>p{max-width:360px}
+.action-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.action-card{min-height:285px;display:flex;flex-direction:column;padding:30px;border:1px solid var(--line);border-radius:16px;background:#fff;text-decoration:none;transition:box-shadow .2s,transform .2s}
+.action-card:hover{transform:translateY(-4px);box-shadow:0 18px 40px #10251d14}
+.action-number{font-size:.74rem;color:var(--red);font-weight:800;letter-spacing:.1em}
+.action-card h3{font-size:1.75rem;margin:35px 0 12px}.action-card p{font-size:.96rem}.action-cta{margin-top:auto;color:var(--red);font-weight:800}
+.story-block{background:#e9eee8;padding-block:90px}.story-inner{display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:center}
+.story-inner h2{font-size:clamp(2.2rem,4.3vw,4.35rem);line-height:1.12}.story-inner h2 span{color:var(--red)}
+.story-inner p{max-width:530px}.story-inner figure img{width:100%;aspect-ratio:1.24;object-fit:cover;border-radius:18px}.story-inner figcaption{margin-top:12px}
+.winter-registration{display:grid;grid-template-columns:.8fr 1.3fr;gap:55px;padding:45px;background:#1d2923;color:white;border-radius:20px}
+.winter-registration .eyebrow{color:#ffb1be}.winter-registration h2{font-size:clamp(2.3rem,4vw,4rem)}
+.winter-registration p{color:#dce3dd}.winter-options{display:grid;gap:14px}
+.winter-options article{background:#fff;color:var(--ink);padding:25px;border-radius:14px}
+.winter-options h3{font-size:1.65rem;margin:12px 0}.winter-options p{color:var(--muted);font-size:.93rem}.winter-options .button{width:100%}
+.registration-guide{display:grid;grid-template-columns:1.25fr 1fr;gap:50px;padding-block:70px}
+.registration-guide aside{background:var(--soft);border-radius:15px;padding:32px}.registration-guide aside a{display:block;margin:14px 0;color:var(--red);overflow-wrap:anywhere}
+.more-programs{border-top:1px solid var(--line);padding:45px 0}
+.leadership-section{padding-block:45px 80px}.leadership-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:25px 0}
+.leadership-grid article{padding:25px;border:1px solid var(--line);border-radius:13px;background:#fff}
+.leadership-grid span{color:var(--red);font-size:.8rem;font-weight:700}.leadership-grid h3{margin:18px 0;font-size:1.15rem}
+.leadership-grid a{color:var(--red);font-size:.85rem}
+@media(max-width:850px){.winter-registration,.story-inner{grid-template-columns:1fr}.winter-registration{padding:28px}.action-grid{grid-template-columns:1fr 1fr}.leadership-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.section-head{display:block}}
+@media(max-width:760px){.home-hero{grid-template-columns:1fr;padding-block:45px}.hero-copy h1{font-size:clamp(2.8rem,9vw,4.2rem)}.hero-photo img{aspect-ratio:1.45;border-radius:12px;object-fit:cover}.winter-banner-inner{flex-direction:column;align-items:start}.action-grid{grid-template-columns:1fr}.action-card{min-height:240px}.quick-start{padding-block:35px 55px}.story-block{padding-block:55px}.feature{margin-top:35px;padding:22px}.registration-guide{grid-template-columns:1fr;gap:20px;padding-block:45px}.nav a[href="registration.html"]{padding:8px 14px}}
+@media(max-width:450px){.hero-stats{gap:20px}.hero-actions .button{width:100%}.leadership-grid{grid-template-columns:1fr}.winter-registration{padding:20px}}
+@media(prefers-reduced-motion:reduce){.action-card,.button{transition:none}html{scroll-behavior:auto}}
