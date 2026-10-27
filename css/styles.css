@@ -84,3 +84,7 @@ header{background:rgba(253,253,250,.97);backdrop-filter:blur(14px)}
 
 
 /* All main navigation links share the same style and active indicator. */
+
+/* Update 7: uniform navigation links, with no Registration pill. */
+.nav a[href="registration.html"]{border:0;border-bottom:2px solid transparent;border-radius:0;padding:10px 0;background:transparent;color:inherit}
+.nav a[href="registration.html"][aria-current="page"]{border-bottom-color:var(--red);color:var(--red)}
