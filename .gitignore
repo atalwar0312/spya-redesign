@@ -6,3 +6,17 @@ __pycache__/
 *.pyc
 node_modules/
 data/extraction-backup-*/
+
+# Editors, generated previews and local verification artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+.tmp/
+tmp/
