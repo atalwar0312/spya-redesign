@@ -1,3 +1,16 @@
+"""LEGACY HTML generator. See docs/PROJECT_STRUCTURE.md before use.
+
+This generator predates the redesigned page layouts. It overwrites root HTML files.
+It is disabled by default to protect the current website.
+"""
+import os
+if os.environ.get("SPYA_ALLOW_LEGACY_BUILD") != "I_UNDERSTAND_THIS_OVERWRITES_PAGES":
+    raise SystemExit(
+        "Legacy generator disabled: it would overwrite redesigned HTML pages. "
+        "See docs/PROJECT_STRUCTURE.md. Only use with an explicit opt-in after "
+        "reviewing and backing up current work."
+    )
+
 """Build the static SPYA redesign. Standard-library Python 3.9+."""
 from pathlib import Path
 from html import escape as e
