@@ -96,6 +96,25 @@ The implementation includes accessibility-minded features, but **it has not been
 
 No package installation, bundler, or JavaScript framework is required to view the static pages locally.
 
+## Repository guide
+
+The repository keeps all public HTML pages at the root so GitHub Pages links continue to work. Supporting assets, code, structured content, and development guidance are grouped into their own folders.
+
+| Document | Purpose |
+| --- | --- |
+| [Project structure](docs/PROJECT_STRUCTURE.md) | Directory map, file ownership, and important generator safety warning |
+| [Maintenance & QA](docs/MAINTENANCE.md) | Editing workflow, release checklist, and troubleshooting |
+| [Contributing](CONTRIBUTING.md) | Code and content standards, branches, and review process |
+| [Pull request template](.github/PULL_REQUEST_TEMPLATE.md) | Consistent change descriptions and testing notes |
+
+**Important:** The root HTML pages are the current source of truth. The old `scripts/build_site.py` generator predates the latest redesign and is intentionally disabled by default to prevent accidental overwrites.
+
+Run the non-destructive structural check before requesting review:
+
+```bash
+python3 scripts/check_structure.py
+```
+
 ## Project structure
 
 ```text
