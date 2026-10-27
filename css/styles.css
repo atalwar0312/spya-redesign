@@ -12,7 +12,7 @@ h1,h2{font-family:Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:-.05
 h3{letter-spacing:-.025em}
 header{background:rgba(253,253,250,.97);backdrop-filter:blur(14px)}
 .header-inner{min-height:90px}.brand img{height:66px;width:64px}
-.nav a[href="registration.html"]{color:var(--red);border:1px solid var(--red);padding:10px 18px;border-radius:999px}
+.nav a[href="registration.html"]{color:inherit;border:1px solid var(--line);padding:10px 18px;border-radius:999px}.nav a[href="registration.html"][aria-current="page"]{color:var(--red);border-color:var(--red)}
 .nav a[href="registration.html"]:hover{color:white;background:var(--red)}
 .home-hero{grid-template-columns:1fr 1.05fr;gap:5vw;padding-block:88px}
 .hero-copy h1{font-size:clamp(3.2rem,6.2vw,6.5rem);line-height:1.03}
