@@ -1,41 +1,15 @@
-# Contributing to the SPYA redesign
+# Contributing
 
-Thank you for helping improve the South Parkland Youth Association website prototype.
+Thanks for helping improve the SPYA redesign.
 
-## Principles
+1. Create a branch from `main`.
+2. Edit HTML pages in `pages/`. Shared styling, scripts, and images remain in `css/`, `js/`, and `assets/`.
+3. Verify current SPYA program details and links before publishing.
+4. Run `python3 scripts/stage_site.py` followed by `python3 scripts/check_structure.py`.
+5. Preview the staged site: `python3 -m http.server 8000 --directory dist`.
+6. Test mobile/desktop layout, keyboard navigation, and reduced-motion preferences.
+7. Open a pull request titled with the next **Update N**; explain the change in the body.
 
-Make it easy for families to find accurate information. Keep layouts consistent, the site accessible, and the implementation lightweight. Use concise link labels without decorative arrows.
+Do not edit `dist/` or run the legacy `scripts/build_site.py`. Preserve relative links, accessible text, and SPYA branding. Avoid unnecessary decorative arrows, and do not claim that a registration form is open without checking.
 
-## Proposing changes
-
-1. Open a branch from `main`.
-2. Edit only the files needed for your change.
-3. Preserve the existing root HTML page names and relative URLs.
-4. Run `python3 scripts/check_structure.py`.
-5. Test the affected pages at desktop and mobile widths.
-6. Open a pull request using the repository template.
-
-Pull request titles use short sequential names such as **Update 9**. Put the purpose, affected pages, screenshots (if applicable), and test notes in the pull request description.
-
-## Code and content conventions
-
-- Use semantic HTML, appropriate `alt` attributes, and explicit `aria-current` on the active navigation link.
-- Prefer shared rules in `css/styles.css` instead of page-specific style overrides.
-- Respect `prefers-reduced-motion`; do not make animation necessary for accessing content.
-- Keep JavaScript dependency-free unless there is a clear need.
-- Use relative links for internal pages and assets so GitHub Pages project hosting works.
-- Never advertise registration as open without recent verification from SPYA or TeamSnap.
-- Review SPYA policies, program contacts, and board names against official sources.
-- Avoid changing copyrighted images or logos without permission.
-
-## Build safety
-
-`scripts/build_site.py` is a legacy HTML generator that can overwrite the redesigned pages. **Do not run it during ordinary editing.** Refer to [Project structure](docs/PROJECT_STRUCTURE.md) for context.
-
-## Useful documentation
-
-- [README](README.md)
-- [Project structure](docs/PROJECT_STRUCTURE.md)
-- [Maintenance and QA](docs/MAINTENANCE.md)
-
-This is a community-focused prototype; contribution acceptance does not imply official SPYA endorsement.
+See [Project structure](docs/PROJECT_STRUCTURE.md) and [Maintenance](docs/MAINTENANCE.md).
