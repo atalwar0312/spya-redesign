@@ -96,57 +96,27 @@ The implementation includes accessibility-minded features, but **it has not been
 
 No package installation, bundler, or JavaScript framework is required to view the static pages locally.
 
-## Repository guide
+## Repository layout
 
-The repository keeps all public HTML pages at the root so GitHub Pages links continue to work. Supporting assets, code, structured content, and development guidance are grouped into their own folders.
-
-| Document | Purpose |
-| --- | --- |
-| [Project structure](docs/PROJECT_STRUCTURE.md) | Directory map, file ownership, and important generator safety warning |
-| [Maintenance & QA](docs/MAINTENANCE.md) | Editing workflow, release checklist, and troubleshooting |
-| [Contributing](CONTRIBUTING.md) | Code and content standards, branches, and review process |
-| [Pull request template](.github/PULL_REQUEST_TEMPLATE.md) | Consistent change descriptions and testing notes |
-
-**Important:** The root HTML pages are the current source of truth. The old `scripts/build_site.py` generator predates the latest redesign and is intentionally disabled by default to prevent accidental overwrites.
-
-Run the non-destructive structural check before requesting review:
-
-```bash
-python3 scripts/check_structure.py
-```
-
-## Project structure
+All 17 HTML pages live in a single **`pages/`** folder. Published URLs stay unchanged because a lightweight deployment step assembles the public website into `dist/`.
 
 ```text
 spya-redesign/
-├── index.html             # Homepage
-├── sports.html            # Searchable sports directory
-├── registration.html      # Registration resources and links
-├── resources.html         # Families, assistance, volunteering, FAQs
-├── community.html         # Championships and community highlights
-├── about.html             # Mission and leadership
-├── calendar.html          # Association calendar
-├── baseball.html          # Individual sports pages
-├── basketball.html
-├── cheer.html
-├── field-hockey.html
-├── football.html
-├── lacrosse.html
-├── nfl-flag.html
-├── soccer.html
-├── softball.html
-├── assets/
-│   └── images/            # Logo, team photos, and graphics
-├── css/
-│   └── styles.css         # Layout, styles, responsive rules, animation
-├── js/
-│   └── app.js             # Interactive website behavior
-├── data/                  # Content/source materials
-├── docs/                  # Project notes and reviews
-└── scripts/               # Repository utilities and validation tools
+├── pages/                   # All 17 HTML pages, including sports
+├── assets/images/           # Team photography and logo
+├── css/styles.css           # Styles and motion
+├── js/app.js                # Site interactions
+├── data/                    # Content sources and asset records
+├── scripts/                 # Site staging and validation
+├── docs/                    # Architecture and maintenance
+├── .github/workflows/       # Checks and deployment
+├── CONTRIBUTING.md
+└── README.md
 ```
 
-The HTML pages are deliberately kept at the repository root so their relative links remain compatible with the GitHub Pages project URL.
+**[Full project structure](docs/PROJECT_STRUCTURE.md)** · **[Maintenance guide](docs/MAINTENANCE.md)** · **[Contributing](CONTRIBUTING.md)**
+
+The `dist/` folder is generated automatically and is not committed.
 
 ## Getting started
 
@@ -163,34 +133,40 @@ Open the **[live demo](https://atalwar0312.github.io/spya-redesign/)**. No insta
    cd spya-redesign
    ```
 
-2. Open `index.html` in a browser, or start a simple local server:
+2. Assemble and validate the website:
 
    ```bash
-   python3 -m http.server 8000
+   python3 scripts/stage_site.py
+   python3 scripts/check_structure.py
    ```
 
-3. If using the local server, visit **http://localhost:8000**.
+3. Preview the published layout:
 
-A local server is recommended when inspecting navigation and assets across pages.
+   ```bash
+   python3 -m http.server 8000 --directory dist
+   ```
+
+4. Visit **http://localhost:8000**.
+
+Edit source pages inside `pages/` and re-run the staging script after each change.
 
 ## Deployment
 
-This is a **static GitHub Pages project**. The live demo is available at:
+The [live demo](https://atalwar0312.github.io/spya-redesign/) is deployed on GitHub Pages.
 
-**https://atalwar0312.github.io/spya-redesign/**
+**Deployment source must be set to GitHub Actions** in **Settings > Pages > Build and deployment**. The `Publish website` workflow automatically copies all HTML pages from `pages/`, along with CSS, JavaScript, and images, into `dist/` and deploys that directory.
 
-To publish from the repository, confirm that GitHub Pages is configured to serve the intended branch and root folder under **Settings > Pages**. Changes to a development branch do not automatically become live; they need to be merged into the publishing branch if Pages is configured to publish from that branch.
+The deployed pages remain at their original public addresses, such as `/spya-redesign/sports.html`. **Do not configure Pages to publish from the repository root** after this layout migration.
 
-### Updating the site
+For each change:
 
-1. Create a working branch from `main`.
-2. Edit content and styles, preserving internal links and responsive behavior.
-3. Test desktop and mobile navigation, registration links, keyboard focus, and reduced-motion behavior.
-4. Open a pull request for review.
-5. Merge once the changes have been approved and checked.
-6. Verify the deployed GitHub Pages site after publishing.
+1. Create a new branch and edit source files.
+2. Run `python3 scripts/stage_site.py` and `python3 scripts/check_structure.py`.
+3. Review the locally staged site and open a pull request.
+4. Merge after review and check the **Publish website** GitHub Actions run.
+5. Verify the live site and its links.
 
-**Cache note:** The HTML files include a version query on the stylesheet URL (for example, `css/styles.css?v=...`). When changing shared styles, update that version consistently across pages if visitors might otherwise see cached CSS.
+For more detail, see the [release checklist](docs/MAINTENANCE.md).
 
 ## Content maintenance
 
@@ -212,14 +188,7 @@ Youth sports details are time-sensitive. The site should be reviewed at the star
 
 Feedback is welcome, especially around clarity for families, accessibility, mobile usability, visual consistency, and information accuracy.
 
-For a proposed improvement:
-
-1. Open an issue describing the desired change, or create a branch.
-2. Keep changes focused and use clear commits.
-3. Submit a pull request with an explanation and a testing summary.
-4. Validate information sourced from SPYA before publishing it.
-
-For consistency, updates to this project may use short pull request titles such as **Update 1**, **Update 2**, and so on. Put detailed explanations inside the pull request description rather than in the title.
+For contributions, edit pages inside `pages/`, run the staging and validation scripts, and submit a pull request with review notes. Keep pull request titles short—**Update 10**, **Update 11**, and so on—and put detailed explanations inside the pull request body. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Project goals
 
