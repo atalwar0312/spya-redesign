@@ -7,7 +7,9 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 import sys
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[1] / "dist"
+if not ROOT.is_dir():
+    raise SystemExit("Missing dist/: run python3 scripts/stage_site.py first")
 PAGES = sorted(ROOT.glob("*.html"))
 REQUIRED = {
     "index.html", "sports.html", "registration.html", "resources.html",

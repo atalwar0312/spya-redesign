@@ -1,21 +1,17 @@
 ## Summary
 
-Describe what changed and why. The title should use the next short update name (for example, **Update 9**).
+Explain the change here. Keep the PR title short, e.g. **Update 11**.
 
-## Files/pages affected
+## Files affected
 
-<!-- Pages or components changed -->
+## Checks
 
-## Verification
-
+- [ ] Ran `python3 scripts/stage_site.py`
 - [ ] Ran `python3 scripts/check_structure.py`
-- [ ] Checked the changed pages on desktop and mobile
-- [ ] Tested keyboard navigation and visible focus states
-- [ ] Verified that animations respect reduced-motion settings, if applicable
-- [ ] Confirmed program facts and external links with the official source, if applicable
-- [ ] Checked that existing GitHub Pages URLs still work
-- [ ] No sensitive data, temporary files, or unlicensed assets added
+- [ ] Reviewed local site at `http://localhost:8000`
+- [ ] Checked affected pages on desktop/mobile
+- [ ] Confirmed navigation and accessibility
+- [ ] Verified official details and external links where applicable
+- [ ] No generated `dist/` files or sensitive information committed
 
-## Screenshots or notes
-
-<!-- Optional: add before/after screenshots, known limitations, or review requests -->
+## Screenshots and review notes
