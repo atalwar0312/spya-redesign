@@ -56,3 +56,28 @@ header{background:rgba(253,253,250,.97);backdrop-filter:blur(14px)}
 @media(max-width:760px){.home-hero{grid-template-columns:1fr;padding-block:45px}.hero-copy h1{font-size:clamp(2.8rem,9vw,4.2rem)}.hero-photo img{aspect-ratio:1.45;border-radius:12px;object-fit:cover}.winter-banner-inner{flex-direction:column;align-items:start}.action-grid{grid-template-columns:1fr}.action-card{min-height:240px}.quick-start{padding-block:35px 55px}.story-block{padding-block:55px}.feature{margin-top:35px;padding:22px}.registration-guide{grid-template-columns:1fr;gap:20px;padding-block:45px}.nav a[href="registration.html"]{padding:8px 14px}}
 @media(max-width:450px){.hero-stats{gap:20px}.hero-actions .button{width:100%}.leadership-grid{grid-template-columns:1fr}.winter-registration{padding:20px}}
 @media(prefers-reduced-motion:reduce){.action-card,.button{transition:none}html{scroll-behavior:auto}}
+
+/* Board-ready motion system: restrained, performant, keyboard friendly */
+@keyframes spya-rise{from{opacity:0;transform:translate3d(0,22px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@keyframes spya-image-enter{from{opacity:0;transform:scale(.975)}to{opacity:1;transform:scale(1)}}
+@media(prefers-reduced-motion:no-preference){
+  .home-hero .eyebrow{animation:spya-rise .55s both}
+  .home-hero h1{animation:spya-rise .7s .08s both}
+  .home-hero .lead{animation:spya-rise .65s .18s both}
+  .hero-actions{animation:spya-rise .65s .27s both}
+  .hero-stats{animation:spya-rise .65s .34s both}
+  .hero-photo{animation:spya-image-enter 1s .15s both}
+  .reveal-on-scroll{opacity:0;transform:translate3d(0,26px,0);transition:opacity .72s ease,transform .72s cubic-bezier(.2,.7,.2,1);transition-delay:var(--reveal-delay,0ms)}
+  .reveal-on-scroll.is-visible{opacity:1;transform:translate3d(0,0,0)}
+  .action-card,.sport-card,.leadership-grid article,.winter-options article{transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+  .action-card:hover,.action-card:focus-visible,.sport-card:hover,.sport-card:focus-visible,.leadership-grid article:hover,.winter-options article:hover{transform:translateY(-5px);box-shadow:0 18px 36px rgba(10,36,23,.10);border-color:#b8c8bb}
+  .button{transition:transform .22s ease,background .22s ease,box-shadow .22s ease}
+  .button:hover{box-shadow:0 8px 20px rgba(90,17,31,.18)}
+  .hero-photo img,.story-inner figure img{transition:transform .6s ease,filter .6s ease}
+  .hero-photo:hover img,.story-inner figure:hover img{transform:scale(1.015);filter:saturate(1.08)}
+  .nav a{transition:color .2s ease,background .2s ease,border-color .2s ease}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .reveal-on-scroll{opacity:1!important;transform:none!important}
+}
