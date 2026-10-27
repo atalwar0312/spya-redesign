@@ -82,7 +82,5 @@ header{background:rgba(253,253,250,.97);backdrop-filter:blur(14px)}
   .reveal-on-scroll{opacity:1!important;transform:none!important}
 }
 
-/* Navigation parity: only the current page is highlighted; no permanent registration CTA style. */
-.nav a[href="registration.html"]{color:inherit;border-bottom:2px solid transparent;padding:10px 0;background:none;border-radius:0}
-.nav a[href="registration.html"][aria-current="page"]{color:var(--red);border-bottom-color:var(--red)}
-.nav a[href="registration.html"]:hover{color:var(--red);background:none}
+
+/* All main navigation links share the same style and active indicator. */
